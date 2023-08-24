@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocorrência</title>
+</head>
+<body>
+    <form>
+        <!--DADOS DA VÍTIMA-->
+        <h1>Nova Ocorrência</h1>
+        <br>
+        <h2>Dados da vítima</h2>
+        <br>
+        <input type="date" name="data">
+        <input type="radio"  name="sexo" value="Masculino">
+        <label for="sexo-m">Masculino</label><br>
+        <input type="radio"  name="sexo" value="Feminino">
+        <label for="sexo-f">Feminino</label>
+        <br>
+        <input type="text" name="nome" placeholder="nome">
+        <br>
+        <input type="text" name="idade" placeholder="idade">
+        <input type="text" name="cpf" placeholder="cpf">
+        <br>
+        <input type="text" name="localizacaoDaOcorrencia" placeholder="localizacaoDaOcorrencia">
+        <br>
+        <h3>Há acompanhante?</h3>
+        <input type="radio"  name="acompanhante" value="sim">
+        <label for="sim">sim</label><br>
+        <input type="radio"  name="acompanhante" value="nao">
+        <label for="nao">não</label>
+        <br>
+        <h3>Dados do acompanhante</h3>
+        <br>
+        <input type="text" name="nomeAcompanhante" placeholder="nome">
+        <br>
+        <input type="text" name="idadeAcompanhante" placeholder="idade">
+        <input type="text" name="cpfAcompanhante" placeholder="cpf">
+        <br>
+        <input type="radio"  name="sexoAcompanhante" value="Masculino">
+        <label for="sexo-m">Masculino</label><br>
+        <input type="radio"  name="sexoAcompanhante" value="Feminino">
+        <label for="sexo-f">Feminino</label>
+        <br>
+        <!--TIPO DE OCORRÊNCIA-->
+        <h3>Tipo de Ocorrência</h3><br><h4>Pré-Hospitalar</h4>
+        <br>
+        <input type="checkbox" name="a1">Causado por animais
+        <br>
+        <input type="checkbox" name="a2">Com meio de Transporte
+        <br>
+        <input type="checkbox" name="a3">Desmoronamento/Deslizamento
+        <br>
+        <input type="checkbox" name="a4">Emergência Médica
+        <br>
+        <input type="checkbox" name="a5">Queda de Altura 2M
+        <br>
+        <input type="checkbox" name="a6">Tentativa de Suicídio
+        <br>
+        <input type="checkbox" name="a7">Queda própria altura
+        <br>
+        <input type="checkbox" name="a8">Afogamento
+        <br>
+        <input type="checkbox" name="a9">Agressão
+        <br>
+        <input type="checkbox" name="a10">Atropelamento
+        <br>
+        <input type="checkbox" name="a11">Choque Elétrico
+        <br>
+        <input type="checkbox" name="a12">Desabamento
+        <br>
+        <input type="checkbox" name="a13">Doméstico
+        <br>
+        <input type="checkbox" name="a14">Esportivo
+        <br>
+        <input type="checkbox" name="a15">Intoxicação
+        <br>
+        <input type="checkbox" name="a16">Queda Bicicleta
+        <br>
+        <input type="checkbox" name="a17">Queda Moto
+        <br>
+        <input type="checkbox" name="a18">Queda Nível &lt;2M
+        <br>
+        <input type="checkbox" name="a19">Trabalho
+        <br>
+        <input type="checkbox" name="a20">Transferência
+        <!--Problemas encontrados-->
+        <h3>Problemas encontrados</h3>
+        <br>
+        <input type="checkbox" name="b1">Respiratório
+        <input type="checkbox" name="b1a">DPOC
+        <input type="checkbox" name="b1b">Inalação de fumaça
+        <br>
+        <input type="checkbox" name="b2">Diabetes
+        <input type="checkbox" name="b2a">Hiperglicemia
+        <input type="checkbox" name="b2b">Hipoglicemia
+        <br>
+        <input type="checkbox" name="b3">Obstétrico
+        <input type="checkbox" name="b3a">Parto Emergencial
+        <input type="checkbox" name="b3b">Gestante
+        <input type="checkbox" name="b3c">Hemor. Excessiva
+        <br>
+        <input type="checkbox" name="b4">Tansporte
+        <input type="checkbox" name="b4a">Aéreo
+        <input type="checkbox" name="b4b">Clínico
+        <input type="checkbox" name="b4c">Emergencial
+        <input type="checkbox" name="b4d">Pós-Trauma
+        <input type="checkbox" name="b4e">Samu
+        <input type="checkbox" name="b4f">Sem remoção
+        <input type="text" name="b4g" placeholder="Outros">
+        <br>
+        <input type="text" name="b5" placeholder="Outros">
+    </form>
+    
+</body>
+</html>
